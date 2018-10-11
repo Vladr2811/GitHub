@@ -12,7 +12,7 @@ test = range(int(duration*sampleRate))
 for i in range(int(duration * sampleRate)):
 
 	
-    value = (int(32767.0*math.cos(test[i]*math.pi*float(i)/float(sampleRate))))
+    value = (int(32767.0*math.cos(500*math.pi*float(i)/float(sampleRate))))
 
   
     #value = (int(32767.0*math.cos(500*math.pi*float(i)/float(sampleRate))))
