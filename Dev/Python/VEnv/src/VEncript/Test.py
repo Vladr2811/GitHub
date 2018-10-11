@@ -1,7 +1,7 @@
 import wave, struct, math
 
-sampleRate = 88200.0 # hertz
-duration = 4.0       # seconds
+sampleRate = 44100.0 # hertz
+duration = 1.0       # seconds
 frequency = 440.0    # hertz
 
 wavef = wave.open('sound.wav','w')
